@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+
+
+.navbar{
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+}
+.logo{
+    flex: 20%;
+   /* border: 1px solid red; */
+    text-align: left;
+    margin-left:10%;
+}
+.logo h1{
+    font-family: 'Lobster', cursive;
+    font-size: 34px ;
+    color: #2b145c;
+    
+}
+.menu{
+    flex: 70%;
+   /*border: 1px solid blue;  */
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color:#2b145c;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color:rgb(1,231,231);
+    border-top: 4px solid rgb(1,231,231);
+}
+#botao{
+    background: rgb(1,231,231);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover{
+    border: none;
+    background: #2b145c;
+}
+.header{
+    height: auto;
+    background: white ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+}
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+   /* border: 1px solid black; */
+}
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+   /* border: 1px solid red; */
+    text-align:center;
+    
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color:#2b145c ;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.headline p{
+    color: gray;
+    text-align: left;
+}
+.contact-btn{
+    display: inline-block;
+    background: rgb(1,231,231);
+    padding: 20px;
+    margin-top:20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.contact-btn:hover{
+    background: #2b145c;
+}
+section{
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+    display: inline-block; /*vou colocar so algumas coisas simples, entao nao precisa ser flex*/
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #2b145c;
+
+}
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    border: 1px;
+    margin: 1%;
+    border: 1px solid #2b145c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.card:hover{
+    background:rgb(1,231,231);
+    color: white;
+    padding: 60px;
+
+}
+
+.card:hover img{
+    display:none;
+  
+}
+.texto-oculto{
+    display: none;
+}
+.card:hover .card-text{
+    display:none;
+}
+.card:hover .texto-oculto{
+    display:block;
+}
+footer{
+    padding-top: 100px;
+    height: auto;
+    text-align: center;
+    background-image: linear-gradient(180deg,#2b145c,#0f0525,black);
+    border-top: 2px solid rgb(1,231,231);
+}
+.logo-rodape{
+    padding: 100px;
+}
+.agencia{
+    font-family: 'Lobster', cursive;
+    font-size: 34px ;
+    color: white;
+}
+.whats{
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    
+}
